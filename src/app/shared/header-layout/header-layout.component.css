@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .6rem 1rem;
+    padding: 1rem 1rem;
     box-shadow: rgb(0, 0, 0, .15) 1px 1px 10px 0px;
 }
 
@@ -18,4 +18,10 @@
 
 .group-navigation .btn-navigation{
     background-image: linear-gradient(to right, #D434B0, #8029FC);
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
 }

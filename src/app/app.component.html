@@ -1,11 +1,12 @@
-
 <main class="main">
-  <header-layout/>
+  <header-layout></header-layout>
  
- <h1>Click ís an Event</h1> 
- <button (click)="handleClickMe()"> {{nameBtn}}</button>
-<div>Message: {{ clickMessage}}</div>
-
+  <h1>Click is an Event</h1> 
+  <!-- <button (click)="handleClickMe()"> {{nameBtn}}</button>
+  <div>Message: {{ clickMessage}}</div> -->
+  <input type="text" [(ngModel)]="bindingMessage" />
+  <div>Message: {{ bindingMessage }}</div>
+  
 </main>
 
-<router-outlet />
+<router-outlet></router-outlet>
