@@ -16,5 +16,9 @@ export class AppComponent {
   handleClickMe() {
     this.clickMessage = 'Button Clicked!';  // Thêm phương thức handleClickMe
   }
+
+  updateField(): void{
+    console.log('Hello World');
+  }
 }
 
