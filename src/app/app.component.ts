@@ -11,16 +11,16 @@ import { FormsModule } from '@angular/forms'; // Import FormsModule
   styleUrl: './app.component.css' 
 })
 export class AppComponent {
-  nameBtn= 'Click Me!';
-  clickMessage =' ';  
+  // nameBtn= 'Click Me!';
+  // clickMessage =' ';  
 
-  bindingMessage = ' ';  // Đảm bảo khai báo bindingMessage là một object
+  // bindingMessage = ' ';  // Đảm bảo khai báo bindingMessage là một object
 
-  handleClickMe() {
-    this.clickMessage = 'Button Clicked!';
-  }
+  // handleClickMe() {
+  //   this.clickMessage = 'Button Clicked!';
+  // }
 
-  updateField(): void {
-    console.log('Hello World');
-  }
+  // updateField(): void {
+  //   console.log('Hello World');
+  // }
 }
